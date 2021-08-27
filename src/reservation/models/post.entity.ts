@@ -8,6 +8,6 @@ export class ReservationPostEntity {
   @Column({ default: '' })
   date_of_arrival: string;
 
-  @Column({ default: '' })
-  total_guests: string;
+  @Column({ default: null })
+  total_guests: number;
 }
